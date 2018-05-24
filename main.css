@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;    
+}
+
+h1, h2, h3, h4, h5, h6 {    
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.contatos {    
+    height: 700px;
+    overflow-y: scroll;       
+}
+
+.adicionar {
+    margin-bottom: 5px;
+    margin-left: 85%;
+}
+
+.contato {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(51,51,51,.1); 
+}
+
+.informacoes-contato {
+    margin-left: 93px;
+    margin-top: -85px;
+    color: #333;
+}
+
+.imagem-contato {
+    margin: 5px;
+}
