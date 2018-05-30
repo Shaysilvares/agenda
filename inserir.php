@@ -13,7 +13,7 @@ $sql = "INSERT INTO contatos (nome, telefone, rua, numero, bairro, cidade)
 VALUES ('$nome', '$telefone', '$rua', $numero, '$bairro', '$cidade')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully";
+    header('Location: http://localhost/apsweb/');
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

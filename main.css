@@ -1,10 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 0;    
+body {
+    background-color: #eeeeee !important;
 }
 
 h1, h2, h3, h4, h5, h6 {    
-    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     color: #333;
 }
 
@@ -13,13 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 3px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
 }
+
 .contatos {    
-    height: 700px;
+    height: 600px;
     overflow-y: scroll;       
 }
 
@@ -40,4 +40,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .imagem-contato {
     margin: 5px;
+}
+
+.btn-editar-remover {    
+    margin: -20% 0 0 90%;
+}
+
+.hr {
+    width: 475px;
+    margin-left: -10rem;
+}
+
+#map {
+    width: 635px;
+    height: 620px;
 }
